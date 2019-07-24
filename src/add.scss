@@ -1,0 +1,51 @@
+.input {
+    width: 90%;
+    height: 50px;
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    input {
+        display: -webkit-inline-box;
+        width: 80%;
+        height: 100%;
+        box-sizing: border-box;
+        outline: none;
+        border: none;
+        padding: 0 0 0 10px ;
+        font-size: 24px;
+        &:focus {
+            box-shadow: 0 0 3px 0 blue;
+        }
+        &:hover {
+            box-shadow: 0 0 2px 0 blue;
+        }
+        border-radius: 10px 0 0 10px;
+        -webkit-border-radius: 10px 0 0 10px;
+        -moz-border-radius: 10px 0 0 10px;
+        -ms-border-radius: 10px 0 0 10px;
+        -o-border-radius: 10px 0 0 10px;
+}
+    button {
+        border: none;
+        background-color:#3742fa;
+        color: white;
+        display: inline-block;
+        height: 100%;
+        width: 20%;
+        padding: 0;
+        outline:none;
+        box-sizing: border-box;
+        font-size: 24px;
+        border-radius: 0 10px 10px 0    ;
+        -webkit-border-radius: 0 10px 10px 0    ;
+        -moz-border-radius: 0 10px 10px 0    ;
+        -ms-border-radius: 0 10px 10px 0    ;
+        -o-border-radius: 0 10px 10px 0    ;
+        &:hover {
+            box-shadow: 0 0 5px 0 rgb(4, 4, 12);
+        }
+        &:focus {
+            box-shadow: 0 0 5px 0 rgb(242, 242, 245) inset;
+        }
+}
+}

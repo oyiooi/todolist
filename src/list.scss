@@ -1,0 +1,36 @@
+.list {
+    width: 85%;
+    height: calc( 100vh - 100px);
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+    overflow: scroll;
+    font-family: fantasy;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    li {
+        width: 95%;
+        height: 90px;
+        margin: 10px 10px 0 10px;
+        box-shadow: 0 0 5px 0 gray;
+        position: relative;
+        line-height: 90px;
+        padding-left: 10px;
+        font-size: 24px;
+        box-sizing: border-box;
+        cursor: pointer;
+        .completed {
+            width: 70px;
+            height: 70px;
+            position: absolute;
+            right: 10px;
+            margin: 0;
+            top: 15px;
+            background-image: url('./completed.svg');
+            background-size: 70px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+}
